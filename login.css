@@ -1,0 +1,255 @@
+*{margin: 0%;
+padding: 0%;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(243, 243, 243);
+}
+
+body {
+    overflow: hidden; /* Hide scrollbars */
+  }
+
+h1, h2, h3, h4, h5, h6, p, a{
+    font-family:Arial, Helvetica, sans-serif
+}
+
+.main-container{
+    margin:auto;
+    margin-top: 305px;
+}
+
+.form-container{
+    width: 350px;
+    height: 380px;
+    border: 1px rgb(199, 199, 199) solid;
+    margin: auto;
+    background-color: rgb(255, 255, 255);
+}
+
+.form{display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+
+.title{
+    text-align: center;
+    padding-top: 30px;
+    font-family: cursive;
+}
+
+form{
+    width: 100%;
+    padding-top: 40px;
+}
+
+input[type="email"], input[type="password"]{
+    margin: 2px 90px;
+    width: 70%;
+    height: 30px;
+    margin: auto;
+    border: 1px rgb(199, 199, 199) solid;
+    border-radius: 3px;
+}
+
+input[type="submit"]{
+    width: 70%;
+    height: 30px;
+    margin: auto;
+}
+
+.signup-container{
+    width: 350px;
+    height: 63px;
+    border:1px rgb(199, 199, 199) solid;
+    margin: auto;
+    padding-top: 0px;
+    background-color: rgb(255, 255, 255);
+}
+
+.box{
+    margin-bottom: 10px;
+}
+
+.sign-up{
+    padding-top: 22px;
+    text-align: center;
+    font-size: .9rem;
+}
+
+.signup-link{
+    color: rgb(0, 153, 255);
+}
+
+.getapp-container{
+    width: 350px;
+    height: 102px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;  
+}
+
+.getapp-container >p{
+    font-size: .85rem;
+}
+
+.footer{
+    width: 483px;
+    height: 151px;
+    margin: auto;
+    
+}
+
+.footer-div{
+    width: 451px;
+    height: 99px;
+    margin: auto;
+    
+}
+
+.or-divider{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 15px;
+    font-size: .74rem;
+    color: grey;
+}
+
+.bar{
+    border-bottom: rgb(175, 175, 175) 1px solid;
+    width: 99px;
+    margin: 0 10px;
+}
+
+.fb-icon{
+    width: 20px;
+    margin-right: 10px;
+    }
+
+.flex {
+ display: flex;
+ align-items: center;
+ justify-content: center;
+}
+
+.log-in-with{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+    font-size: .4 ;
+}
+
+.log-in-with a{
+    font-size: .9rem;
+    color: rgb(33, 33, 139);
+}
+
+.username-login{
+    font-size: .7rem;
+    color: rgb(160, 160, 160);
+}
+
+.submit-btn{
+    color: rgb(255, 255, 255);
+    background-color: rgb(163, 191, 245);
+    border: none;
+    border-radius: 4px;
+}
+
+.forgot-password{
+    padding-top: 23px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    font-size: .72rem;
+}
+.btn{
+    border-radius: 5px;
+    width: 140px;
+    height: 40px;
+    background-color: rgb(0, 0, 0);
+    margin: 15px 2px;
+}
+.fab{
+    margin-right: 20px;
+    color: white;
+}
+
+.app-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.little-txt{
+    font-size: .7rem;
+}
+
+.big-txt{
+    font-size: 17px;
+}
+
+.footer-div{
+    margin-top: 280px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-grow: 1;
+}
+
+.footer-div-2{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-grow: 1;
+    color: grey
+}
+
+.ftr-link{
+    margin: 0 5px;
+    font-size: .8rem;
+    color: grey;
+}
+
+.footer-div-2>p{
+    font-size: .8rem;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+.btn-div> a{
+    color: white;
+}
+
+.home-img{
+    visibility: hidden;
+    height: 0%;
+    width: 0%;
+}
+
+@media screen and (min-width: 887px) {
+  
+    .main-container{
+        display: flex;
+        justify-content: center;
+    }
+
+    .home-img{
+        visibility: visible;
+        width: 350px;
+        height: 545px;
+        margin-right: 30px;
+    }
+}
